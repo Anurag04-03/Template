@@ -1,4 +1,4 @@
-//Vectors
+//Vector
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -18,7 +18,7 @@ return 0;
 
 Operation                            Syntax
 Declare                           vector<int> v;
-Initialize                       vector<int>v(n, val);
+Initialize                        vector<int>v(n, val);
 Access Element                    v[i] or v.at(i)
 Add Element                       v.push_back(x);
 Remove Last                       v.pop_back();
@@ -106,7 +106,7 @@ unordered_set<int> us;
 us. insert (5);
 us. insert (2);
 us. insert (8);
-us. insert(2); // Duplicate, won't be added
+us. insert (2); // Duplicate, won't be added
 
 // Checking presence
 if (us. find(5) !=  us.end())
